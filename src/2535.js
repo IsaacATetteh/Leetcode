@@ -12,7 +12,6 @@ var differenceOfSum = function (nums) {
     for (let i = 0; i < temp.length; i++) {
       count2 += parseInt(temp[i]);
     }
-    console.log(count2);
   }
 
   return Math.abs(count - count2);
